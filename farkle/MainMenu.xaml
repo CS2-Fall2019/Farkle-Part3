@@ -46,15 +46,15 @@
                 </TransformGroup>
             </Label.RenderTransform>
         </Label>
-        <RadioButton x : Name="rdoOnePlayer" Content="1 Player" HorizontalAlignment="Left" Margin="46,159,0,0" VerticalAlignment="Top" GroupName="Player" Checked="rdoOnePlayer_Checked" IsChecked="True"/>
+        <RadioButton x:Name="rdoOnePlayer" Content="1 Player" HorizontalAlignment="Left" Margin="46,159,0,0" VerticalAlignment="Top" GroupName="Player" Checked="rdoOnePlayer_Checked"/>
         <RadioButton x:Name="rdoTwoPlayer" Content="2 Players" HorizontalAlignment="Left" Margin="46,175,0,0" VerticalAlignment="Top" GroupName="Player" Checked="rdoTwoPlayer_Checked"/>
         <RadioButton x:Name="rdoThreePlayer" Content="3 Players" HorizontalAlignment="Left" Margin="117,159,0,0" VerticalAlignment="Top" GroupName="Player" Checked="rdoThreePlayer_Checked"/>
         <RadioButton x:Name="rdoFourPlayers" Content="4 Players" HorizontalAlignment="Left" Margin="117,175,0,0" VerticalAlignment="Top" GroupName="Player" Checked="rdoFourPlayers_Checked" />
         <RadioButton x:Name="rdoZeroAI" Content="No AI" HorizontalAlignment="Left" Margin="172,207,0,0" VerticalAlignment="Top" GroupName="AI" Visibility="Visible" IsChecked="True"/>
-        <RadioButton x:Name="rdoOneAI" Content="1 AI" HorizontalAlignment="Left" Margin="46,200,0,0" VerticalAlignment="Top" GroupName="AI" Visibility="Hidden"/>
-        <RadioButton x:Name="rdoTwoAI" Content="2 AI" HorizontalAlignment="Left" Margin="46,216,0,0" VerticalAlignment="Top" GroupName="AI" Visibility="Hidden"/>
-        <RadioButton x:Name="rdoThreeAI" Content="3 AI" HorizontalAlignment="Left" Margin="117,200,0,0" VerticalAlignment="Top" GroupName="AI" Visibility="Hidden"/>
-        <RadioButton x:Name="rdoFourAI" Content="4 AI" HorizontalAlignment="Left" Margin="117,216,0,0" VerticalAlignment="Top" GroupName="AI" Visibility="Hidden" />
+        <RadioButton x:Name="rdoOneAI" Content="1 AI" HorizontalAlignment="Left" Margin="46,200,0,0" VerticalAlignment="Top" GroupName="AI" Visibility="Visible"/>
+        <RadioButton x:Name="rdoTwoAI" Content="2 AI" HorizontalAlignment="Left" Margin="46,216,0,0" VerticalAlignment="Top" GroupName="AI" Visibility="Visible"/>
+        <RadioButton x:Name="rdoThreeAI" Content="3 AI" HorizontalAlignment="Left" Margin="117,200,0,0" VerticalAlignment="Top" GroupName="AI" Visibility="Visible"/>
+        <RadioButton x:Name="rdoFourAI" Content="4 AI" HorizontalAlignment="Left" Margin="117,216,0,0" VerticalAlignment="Top" GroupName="AI" Visibility="Visible" />
         <RadioButton x:Name="rdoEasy" Content="Easy" HorizontalAlignment="Left" Margin="65,244,0,0" VerticalAlignment="Top" GroupName="AIDifficulty" Checked="rdoEasy_Checked" IsChecked="True"/>
         <RadioButton x:Name="rdoHard" Content="Hard" HorizontalAlignment="Left" Margin="112,244,0,0" VerticalAlignment="Top" GroupName="AIDifficulty" Checked="rdoHard_Checked"/>
 
